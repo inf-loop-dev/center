@@ -2,9 +2,9 @@ package com.inf_loop_dev.center.controller;
 
 import com.inf_loop_dev.center.domain.Test;
 import com.inf_loop_dev.center.dto.TestDTO;
+import com.inf_loop_dev.center.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.inf_loop_dev.center.service.TestService;
 
 @RestController
 public class testController {
